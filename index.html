@@ -15,16 +15,26 @@
     <body>
 
         <!-- HEADER -->
-        <header class="bg-primary bg-opacity-50">
+        <header class="bg-primary text-light">
 
-            <div class="container d-flex justify-content-between">
+            <div class="container d-flex justify-content-between align-items-center">
 
-                <div>
-                    header left
+                <div class="fw-bold">
+                    START BOOTSTRAP
                 </div>
 
                 <div>
-                    header right
+                    <ul class="list-unstyled d-flex pt-2">
+                        <li class= "ms-4">
+                            PORTFOLIO
+                        </li>
+                        <li class= "ms-4">
+                            ABOUT
+                        </li>
+                        <li class= "ms-4">
+                            CONTACT
+                        </li>
+                    </ul>
                 </div>
 
             </div>
@@ -35,71 +45,80 @@
         <main>
 
             <!-- main section 1-->
-            <section class="section-1 bg-success">
+            <section class="bg-success bg-opacity-50 text-light">
 
-                <div class="container d-flex justify-content-center">
+                <div class="container small-container d-flex flex-column align-items-center py-4">
 
-                    <div class="text-center">
-
-                        <div>
-                            IMG
-                        </div>
-                        <h1>
-                            TITLE
-                        </h1>
-                        <ul class="list-unstyled d-flex">
-                            <li>
-                                LIST
-                            </li>
-                            <li>
-                                LIST
-                            </li>
-                            <li>
-                                LIST
-                            </li>
-                        </ul>
-
+                    <div class="image-container">
+                        <img src="img/avatar.svg" alt="">
                     </div>
+                    <h1 class="py-3">
+                        START BOOTSTRAP
+                    </h1>
+                    <ul class="d-flex list-unstyled">
+                        <li class="px-1">
+                            GRAPHIC ARTIST -
+                        </li>
+                        <li class="px-1">
+                            WEB DESIGNER -
+                        </li>
+                        <li class="px-1">
+                            ILLUSTRATOR
+                        </li>
+
+                    </ul>  
 
                 </div>
 
             </section>
 
             <!-- main section 2-->
-            <section class="section-2">
+            <section>
 
-                <div class="container text-center">
+                <div class="container small-container text-center text-dark py-4">
 
                     <h2>
-                        SUBTITLE
+                        PORTFOLIO
                     </h2>
 
-                    <div class="row">
+                    <div class="row py-2">
 
-                        <div class="col">
-                           IMG
+                       <div class="col-4">
+                            <div class="image-container-2">
+                                <img  class="rounded" src="img/cabin.png" alt="">
+                            </div>
+                       </div>
+                       <div class="col-4">
+                            <div class="image-container-2">
+                                <img  class="rounded" src="img/cake.png" alt="">
+                            </div>
                         </div>
-                        <div class="col">
-                            IMG
+                        <div class="col-4">
+                            <div class="image-container-2">
+                                <img  class="rounded" src="img/circus.png" alt="">
+                            </div>
                         </div>
-                         <div class="col">
-                            IMG
-                        </div>
-                        
+
                     </div>
 
-                    <div class="row">
+                    <div class="row py-2">
 
-                        <div class="col">
-                           IMG
+                        <div class="col-4">
+                             <div class="image-container-2">
+                                 <img  class="rounded" src="img/game.png" alt="">
+                             </div>
                         </div>
-                        <div class="col">
-                            IMG
-                        </div>
-                         <div class="col">
-                            IMG
-                        </div>
-                        
+                        <div class="col-4">
+                             <div class="image-container-2">
+                                 <img  class="rounded" src="img/safe.png" alt="">
+                             </div>
+                         </div>
+                         <div class="col-4">
+                             <div class="image-container-2">
+                                 <img  class="rounded" src="img/submarine.png" alt="">
+                             </div>
+                         </div>
+ 
                     </div>
 
                 </div>
@@ -107,29 +126,35 @@
             </section>
 
             <!-- main section 3-->
-            <section class="bg-success">
+            <section class="bg-success bg-opacity-50 text-light py-4">
 
-                <div class="container text-center">
+                <div class="container small-container">
 
-                    <h2>
-                        SUBTITLE
+                    <h2 class="text-center">
+                        ABOUT
                     </h2>
 
-                    <div class="row">
+                    <div class="row py-3">
 
-                        <div class="col">
-                            PARAGRAPH
+                        <div class="col text-start">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ex quo consequatur dicta sed, minus molestias rerum rem, quia inventore deserunt accusamus commodi officiis magnam!
+                            </p>
                         </div>
 
-                        <div class="col">
-                            PARAGRAPH
+                        <div class="col text-end">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam ad vero accusantium recusandae dolor? Beatae veniam, iste tenetur sit error numquam optio non aspernatur natus!
+                            </p>
                         </div>
 
                     </div>
 
-                    <button> 
-                        BUTTON
-                    </button>
+                    <div class="d-flex justify-content-center">
+                        <a class="border px-2 py-1 rounded text-decoration-none text-light" href="#">
+                            Download
+                        </a>
+                    </div>
 
                 </div>
 
@@ -138,27 +163,31 @@
             <!-- main section 4-->
             <section>
                 
-                <div class="container">
+                <div class="container small-container text-dark py-4">
 
                     <h2 class="text-center">
-                        SUBTITLE
+                        CONTACT ME
                     </h2>
                     
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled py-3">
                         <li>
-                            LIST
+                            Name
                         </li>
                         <hr>
                         <li>
-                            LIST
+                            Email Address
                         </li>
                         <hr>
                         <li>
-                            LIST
+                            Phone Number
                         </li>
                         <hr>
-                        <li>
-                            LIST
+                        <li class="mb-5 pb-5">
+                            Message
+                        </li>
+                        <hr>
+                        <li class="bg-success bg-opacity-50 d-inline text-light px-2 py-1 rounded">
+                            Send
                         </li>
                     </ul>
 
@@ -174,18 +203,32 @@
             <!-- footer top -->
             <section class="bg-info">
 
-                <div class="container text-center">
+                <div class="container small-container text-light py-4">
 
                     <div class="row">
 
-                        <div class="col">
-                            COL 1
+                        <div class="col text-center">
+                            <h5>
+                                LOCATION
+                            </h5>
+                            <p>
+                                2215 John Daniel Drive Clark, MO <br>
+                                54243
+                            </p>
                         </div>
                         <div class="col">
-                            COL 2
+                            <h5>
+                                AROUND THE WEB
+                            </h5>
                         </div>
-                        <div class="col">
-                            COL 3
+                        <div class="col text-center">
+                            <h5>
+                                ABOUT FREELANCER
+                            </h5>
+                            <p>
+                                Freelance is a free to use, open source Bootstrap theme crated by 
+                                <span class="text-success">Start Bootstrap</span>.
+                            </p>
                         </div>
 
                     </div>
@@ -195,10 +238,10 @@
             </section>
 
             <!-- footer bottom -->
-            <section class="bg-primary">
+            <section class="bg-primary py-4 text-light">
 
                 <div class="container text-center">
-                    FOOTER BOTTOM
+                    Copyright Your Website 2019
                 </div>
 
             </section>
